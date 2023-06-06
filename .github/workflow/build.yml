@@ -7,3 +7,9 @@ on:
   push:
     branches:
       - 'master'
+
+jobs:
+  build:
+    steps:
+        run:
+          - python script.py
